@@ -1,0 +1,7 @@
+name = "planar_eg"
+version = "0.1.0"
+defaultTargets = ["PlanarEG"]
+moreLeanArgs = ["--threads=1"]
+
+[[lean_lib]]
+name = "PlanarEG"

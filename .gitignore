@@ -1,0 +1,24 @@
+# Lean 4 / Lake build cache
+.lake/
+build/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+*~
