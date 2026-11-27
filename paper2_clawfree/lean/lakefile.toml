@@ -1,0 +1,7 @@
+name = "clawfree_eg"
+version = "0.1.0"
+defaultTargets = ["ClawFreeEG"]
+moreLeanArgs = ["--threads=1"]
+
+[[lean_lib]]
+name = "ClawFreeEG"
